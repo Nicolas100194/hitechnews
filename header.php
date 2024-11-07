@@ -8,6 +8,7 @@
 </head>
     <body>
         <header>
+            <a class="home-name" href="#"><?php bloginfo('name')?></a>
             <?php wp_nav_menu(['theme_location' => 'primary',
                 'menu_class' => 'menu-principal',
             ])?>
