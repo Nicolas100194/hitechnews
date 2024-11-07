@@ -1,0 +1,15 @@
+header {
+  background-color: rgb(48, 68, 98);
+}
+header .menu-principal {
+  display: flex;
+  height: 100px;
+  justify-content: flex-end;
+}
+header .menu-principal li > a {
+  color: rgb(255, 255, 255);
+  line-height: 100px;
+  margin-right: 25px;
+}
+
+/*# sourceMappingURL=header.css.map */
